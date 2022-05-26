@@ -1,10 +1,10 @@
 # Cäser-Verschiebung // Cäsar-Algorhythmus / Cäser-Chiffre
 
-# Nachricht Verschlüsseln
 msg = 'PYTHONIC'
 key = 1
 secret_msg = ''
 
+# Nachricht Verschlüsseln
 for char in msg:
     if not char.isalpha(): # Prüfung ob Buchstabe
             continue
